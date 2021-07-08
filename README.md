@@ -13,7 +13,7 @@ Python, Pandas, Matplotlib, Scikit-learn, Wordcloud, nltk, BeautifulSoup
 ### Workflow:
 1. Install Docker
 2. Build a data pipeline with docker-compose
-3. Collect Tweets
+3. Collect Tweets using the Twitter API and tweepy ([tweet_collector](https://github.com/pbamoo/Tweets_Docker_Pipeline/tree/main/tweets_collector))
 4. Store Tweets in Mongo DB
 5. Create an ETL job transporting data from MongoDB to PostgreSQL
 6. Run sentiment analysis on the tweets
